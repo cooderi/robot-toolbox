@@ -11,8 +11,8 @@ RUN dnf -y install \
     jq \
    # lazygit \
     nmap \
-#    python3 \
-#   python3-pip \
+#   python3 \
+    python3-pip \
     tmux \
     tmux-powerline \
     wl-clipboard && \
