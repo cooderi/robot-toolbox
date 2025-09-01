@@ -18,5 +18,6 @@ RUN dnf -y install \
     tmux-powerline \
     wl-clipboard && \
     pip3 install -r /tmp/requirements.txt && \
+    ipmitool \
   dnf update -y && \
   dnf clean all
